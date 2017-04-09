@@ -54,6 +54,9 @@
 		7D1C11741E9AC2D4004C5F87 /* PartyRockApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D1C11891E9AC3EA004C5F87 /* Model */,
+				7D1C11881E9AC3DD004C5F87 /* Controller */,
+				7D1C11871E9AC3D5004C5F87 /* View */,
 				7D1C11751E9AC2D4004C5F87 /* AppDelegate.swift */,
 				7D1C11771E9AC2D4004C5F87 /* MainVC.swift */,
 				7D1C11791E9AC2D4004C5F87 /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				7D1C11811E9AC2D4004C5F87 /* Info.plist */,
 			);
 			path = PartyRockApp2;
+			sourceTree = "<group>";
+		};
+		7D1C11871E9AC3D5004C5F87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7D1C11881E9AC3DD004C5F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7D1C11891E9AC3EA004C5F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
