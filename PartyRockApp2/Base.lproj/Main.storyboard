@@ -153,12 +153,26 @@
                     <view key="view" contentMode="scaleToFill" id="9Xv-My-VxG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpH-Ma-ELf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="279"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="aj8-54-yzH"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JpH-Ma-ELf" firstAttribute="top" secondItem="9Xv-My-VxG" secondAttribute="top" id="9cM-ms-T3k"/>
+                            <constraint firstItem="JpH-Ma-ELf" firstAttribute="leading" secondItem="9Xv-My-VxG" secondAttribute="leading" id="Tru-hZ-9Nb"/>
+                            <constraint firstAttribute="trailing" secondItem="JpH-Ma-ELf" secondAttribute="trailing" id="nHB-Wm-1Sn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XM6-ya-rFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="139"/>
+            <point key="canvasLocation" x="928.79999999999995" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
