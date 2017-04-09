@@ -16,6 +16,13 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
+        let urlTest = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2bF6QipA3iQ\" frameborder=\"0\" allowfullscreen></iframe>"
+        let p1 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        
+//        PartyRocks.append(p1)
+        
+        
         
         tableView.delegate = self
         tableView.dataSource = self
