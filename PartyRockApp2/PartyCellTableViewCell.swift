@@ -12,6 +12,9 @@ class PartyCellTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+    }
+    
+    func updateUI(){
+        
     }
 }
