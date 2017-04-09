@@ -162,7 +162,7 @@
                                 </constraints>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.92202986708752399" green="0.92202986708752399" blue="0.92202986708752399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="JpH-Ma-ELf" firstAttribute="top" secondItem="9Xv-My-VxG" secondAttribute="top" id="9cM-ms-T3k"/>
                             <constraint firstItem="JpH-Ma-ELf" firstAttribute="leading" secondItem="9Xv-My-VxG" secondAttribute="leading" id="Tru-hZ-9Nb"/>
