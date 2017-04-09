@@ -99,13 +99,15 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love is a one way street" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzL-77-C8U">
-                                                    <rect key="frame" x="106" y="38.5" width="253" height="20"/>
-                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="17"/>
+                                                    <rect key="frame" x="106" y="32" width="253" height="32.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32.5" id="jnM-6w-7di"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="27"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.75689116128569611" green="1" blue="0.23058575172899098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="DzL-77-C8U" secondAttribute="trailing" constant="8" id="BCQ-CE-1RA"/>
                                                 <constraint firstItem="DzL-77-C8U" firstAttribute="leading" secondItem="V2x-2Q-FGi" secondAttribute="trailing" constant="8" id="GbL-YM-82i"/>
@@ -114,7 +116,6 @@
                                                 <constraint firstItem="V2x-2Q-FGi" firstAttribute="leading" secondItem="LHu-iK-LsT" secondAttribute="leadingMargin" constant="8" id="aOQ-pF-lSt"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="1" green="0.18828957708369709" blue="0.20405256162114571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
