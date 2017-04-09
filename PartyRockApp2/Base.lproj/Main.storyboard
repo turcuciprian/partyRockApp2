@@ -139,6 +139,24 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="uMl-kP-DAs">
+            <objects>
+                <viewController id="dRh-ZL-Mqo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cb2-eL-tcI"/>
+                        <viewControllerLayoutGuide type="bottom" id="7NZ-Pn-d67"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Xv-My-VxG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XM6-ya-rFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="139"/>
+        </scene>
     </scenes>
     <resources>
         <image name="kimbra_logo" width="400" height="155"/>
