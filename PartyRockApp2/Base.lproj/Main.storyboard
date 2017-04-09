@@ -116,6 +116,10 @@
                                                 <constraint firstItem="V2x-2Q-FGi" firstAttribute="leading" secondItem="LHu-iK-LsT" secondAttribute="leadingMargin" constant="8" id="aOQ-pF-lSt"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="V2x-2Q-FGi" id="Tuh-1C-I9k"/>
+                                            <outlet property="videoTitle" destination="DzL-77-C8U" id="wCN-Ld-pS1"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
