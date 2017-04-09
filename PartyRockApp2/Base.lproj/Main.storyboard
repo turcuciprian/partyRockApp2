@@ -21,10 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-Qq-lty">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-Qq-lty">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="118"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="ayo-ET-JZE"/>
+                                    <constraint firstAttribute="height" constant="118" id="ayo-ET-JZE"/>
                                 </constraints>
                             </imageView>
                         </subviews>
