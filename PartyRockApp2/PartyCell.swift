@@ -17,6 +17,9 @@ class PartyCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    func updateUI(){
+        
+    }
     
 
 }
