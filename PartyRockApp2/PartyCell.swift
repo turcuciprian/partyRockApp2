@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PartyCellTable: UITableViewCell {
+class PartyCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
