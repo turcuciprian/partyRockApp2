@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PartyRockApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="PartyRockApp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -134,15 +134,18 @@
                             <constraint firstItem="Zht-zZ-dRl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="md7-Qa-XuB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="dRh-ZL-Mqo" kind="showDetail" identifier="VideoVC" id="ZR7-Ax-Fm4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--VideoVC-->
         <scene sceneID="uMl-kP-DAs">
             <objects>
-                <viewController id="dRh-ZL-Mqo" sceneMemberID="viewController">
+                <viewController id="dRh-ZL-Mqo" customClass="VideoVC" customModule="PartyRockApp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cb2-eL-tcI"/>
                         <viewControllerLayoutGuide type="bottom" id="7NZ-Pn-d67"/>
