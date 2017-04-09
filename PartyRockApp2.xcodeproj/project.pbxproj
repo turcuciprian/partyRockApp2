@@ -12,6 +12,7 @@
 		7D1C117B1E9AC2D4004C5F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C11791E9AC2D4004C5F87 /* Main.storyboard */; };
 		7D1C117D1E9AC2D4004C5F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C117C1E9AC2D4004C5F87 /* Assets.xcassets */; };
 		7D1C11801E9AC2D4004C5F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C117E1E9AC2D4004C5F87 /* LaunchScreen.storyboard */; };
+		7D1C118B1E9AD7F7004C5F87 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D1C118A1E9AD7F7004C5F87 /* still time.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7D1C117C1E9AC2D4004C5F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D1C117F1E9AC2D4004C5F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1C11811E9AC2D4004C5F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1C118A1E9AD7F7004C5F87 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7D1C11741E9AC2D4004C5F87 /* PartyRockApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D1C118C1E9AD80C004C5F87 /* files */,
 				7D1C11891E9AC3EA004C5F87 /* Model */,
 				7D1C11881E9AC3DD004C5F87 /* Controller */,
 				7D1C11871E9AC3D5004C5F87 /* View */,
@@ -86,6 +89,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		7D1C118C1E9AD80C004C5F87 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1C118A1E9AD7F7004C5F87 /* still time.ttf */,
+			);
+			name = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1C11801E9AC2D4004C5F87 /* LaunchScreen.storyboard in Resources */,
+				7D1C118B1E9AD7F7004C5F87 /* still time.ttf in Resources */,
 				7D1C117D1E9AC2D4004C5F87 /* Assets.xcassets in Resources */,
 				7D1C117B1E9AC2D4004C5F87 /* Main.storyboard in Resources */,
 			);
