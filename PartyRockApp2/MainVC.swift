@@ -16,34 +16,34 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
+        var imgURL =  "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         var urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
         let p1 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
         
-        PartyRocks.append(p1)
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
         let p2 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
         
-        PartyRocks.append(p2)
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
         let p3 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
         
-        PartyRocks.append(p3)
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
         let p4 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
         
-        PartyRocks.append(p4)
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
         let p5 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
         
+        PartyRocks.append(p1)
+        PartyRocks.append(p2)
+        PartyRocks.append(p3)
+        PartyRocks.append(p4)
         PartyRocks.append(p5)
         
         
