@@ -18,7 +18,7 @@ class PartyCell: UITableViewCell {
         // Initialization code
     }
     func updateUI(partyRock: PartyRock){
-        videoTitle.text = partyRock.videoTitle
+//        videoTitle.text = partyRock.videoTitle
         //todo set image from url
         
     }

@@ -63,7 +63,6 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         } else{
             return UITableViewCell()
         }
-        return UITableViewCell()
     }
     func return_embeded(ytCode: String) -> String{
         return "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/\(ytCode)\" frameborder=\"0\" allowfullscreen></iframe>"

@@ -80,7 +80,7 @@
                                     <constraint firstAttribute="height" constant="55" id="XAe-2q-74b"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="97" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="evE-Yi-ffO">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="97" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="evE-Yi-ffO" userLabel="TableView">
                                 <rect key="frame" x="0.0" y="177" width="375" height="490"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -116,10 +116,6 @@
                                                 <constraint firstItem="V2x-2Q-FGi" firstAttribute="leading" secondItem="LHu-iK-LsT" secondAttribute="leadingMargin" constant="8" id="aOQ-pF-lSt"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="videoPreviewImage" destination="V2x-2Q-FGi" id="Tuh-1C-I9k"/>
-                                            <outlet property="videoTitle" destination="DzL-77-C8U" id="wCN-Ld-pS1"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -139,7 +135,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="evE-Yi-ffO" id="L7r-46-KXd"/>
+                        <outlet property="tableView" destination="evE-Yi-ffO" id="YOK-tF-xOu"/>
                         <segue destination="dRh-ZL-Mqo" kind="showDetail" identifier="VideoVC" id="ZR7-Ax-Fm4"/>
                     </connections>
                 </viewController>
