@@ -28,6 +28,8 @@ class PartyCell: UITableViewCell {
                 DispatchQueue.global().sync {
                     self.videoPreviewImage.image = UIImage(data: data)
                 }
+            } catch {
+                
             }
         }
         
