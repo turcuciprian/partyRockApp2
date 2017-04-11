@@ -11,6 +11,10 @@ import UIKit
 class VideoVC: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
+    
+    
+    @IBOutlet weak var titleLbl: UILabel!
+    
     private var _partyRock: PartyRock!
     var partyRock : PartyRock{
         get{
