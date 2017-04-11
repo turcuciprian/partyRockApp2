@@ -18,33 +18,38 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         var imgURL =  "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         var urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
-        let p1 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        let p1 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "Come into my head")
         
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
-        let p2 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        let p2 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "Settle down")
         
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
-        let p3 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        let p3 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "Cameo Lover")
         
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
-        let p4 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        let p4 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "Call me")
         
         
         imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
         urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
-        let p5 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "love is a one way street, live")
+        let p5 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "The build up")
+        
+        imgURL = "https://i.ytimg.com/vi/2SH0pVVBmN0/maxresdefault.jpg"
+        urlTest = self.return_embeded(ytCode: "2bF6QipA3iQ")
+        let p6 = PartyRock(imageURL: imgURL, videoURL: urlTest, videoTitle: "Plain Gold Ring")
         
         PartyRocks.append(p1)
         PartyRocks.append(p2)
         PartyRocks.append(p3)
         PartyRocks.append(p4)
         PartyRocks.append(p5)
+        PartyRocks.append(p6)
         
         
         
@@ -54,7 +59,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.dataSource = self
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "PartyCell", for: indexPath) as? PartyCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PCid", for: indexPath) as? PartyCell {
             
             let partyRock = PartyRocks[indexPath.row]
             

@@ -9,76 +9,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PartyRockApp2/PartyCell.swift"
-            timestampString = "513553589.013862"
+            filePath = "PartyRockApp2/MainVC.swift"
+            timestampString = "513593322.543812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "PartyCell"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.videoPreviewImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.581115"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "27">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.videoPreviewImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.586527"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; PartyRockApp2.PartyCell"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.589618"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "70">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PartyRockApp2.PartyCell&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.594867"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -87,90 +25,28 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PartyRockApp2/PartyCell.swift"
-            timestampString = "513553589.669196"
+            filePath = "PartyRockApp2/MainVC.swift"
+            timestampString = "513593322.543812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "PartyCell"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.videoTitle.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.66004"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "27">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.videoTitle.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.66609"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; PartyRockApp2.PartyCell"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.672488"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "146">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PartyRockApp2.PartyCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PartyRockApp2.PartyCell&gt;"
-                  moduleName = "PartyRockApp2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/turcuciprian/Documents/iOS/PartyRockApp2/PartyRockApp2/PartyCell.swift"
-                  timestampString = "513553607.676307"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PartyRockApp2/MainVC.swift"
-            timestampString = "513555477.490896"
+            timestampString = "513593322.543812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>

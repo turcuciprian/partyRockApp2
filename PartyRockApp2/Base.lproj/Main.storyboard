@@ -84,7 +84,7 @@
                                 <rect key="frame" x="0.0" y="177" width="375" height="490"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="97" id="yf3-lt-rgP" customClass="PartyCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PCid" rowHeight="97" id="yf3-lt-rgP" customClass="PartyCell" customModule="PartyRockApp2">
                                         <rect key="frame" x="0.0" y="28" width="375" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yf3-lt-rgP" id="LHu-iK-LsT">
@@ -116,6 +116,10 @@
                                                 <constraint firstItem="V2x-2Q-FGi" firstAttribute="leading" secondItem="LHu-iK-LsT" secondAttribute="leadingMargin" constant="8" id="aOQ-pF-lSt"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="V2x-2Q-FGi" id="xU6-Nk-RYe"/>
+                                            <outlet property="videoTitle" destination="DzL-77-C8U" id="8ao-Av-cNr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -146,7 +150,7 @@
         <!--VideoVC-->
         <scene sceneID="uMl-kP-DAs">
             <objects>
-                <viewController id="dRh-ZL-Mqo" customClass="VideoVC" customModule="PartyRockApp2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dRh-ZL-Mqo" customClass="VideoVC" customModule="PartyRockApp2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cb2-eL-tcI"/>
                         <viewControllerLayoutGuide type="bottom" id="7NZ-Pn-d67"/>
